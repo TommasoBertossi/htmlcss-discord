@@ -87,6 +87,7 @@ nav > div{
   justify-content: center;
   align-items: center;
   text-align: center;
+  background-image: url('../img/img/jumbo.png');
 }
 
 .jumbotron > .container {
