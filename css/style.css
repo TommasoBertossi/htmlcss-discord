@@ -25,6 +25,9 @@
 
 /* # UTILS */
 
+body{
+  font-family: Whitney, 'Helvetica Neue', Helvetica, Arial, sans-serif;
+}
 .container {
   max-width: 1180px;
   margin-left: auto;
