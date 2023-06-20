@@ -104,10 +104,10 @@ nav > div{
 }
 
 .jumbotron > .container {
-  width: 50%;
+  width: 30%;
   min-height: 250px;
+  line-height: 48px;
 }
-
 /* # SECTIONS */
 
 section.bg-white {
