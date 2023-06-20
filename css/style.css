@@ -106,9 +106,9 @@ section.bg-gray {
   background-color: var(--gray);
 }
 
-.bg-item1{
+/* .bg-item1{
   background-image: url('../img/img/item1.svg');
-}
+} */
 
 .main-section {
   padding: 2rem 0;
