@@ -39,6 +39,12 @@ ul{
   list-style: none;
 }
 
+.small-btn{
+  min-width: 30px;
+  min-height: 20px;
+  border-radius: 15px;
+}
+
 .flex.d-row-reverse {
   flex-direction: row-reverse;
 }
