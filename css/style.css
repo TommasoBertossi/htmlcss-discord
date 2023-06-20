@@ -15,6 +15,7 @@
   --teal: #20b2aa;
   --aquamarine: #7fffd4;
   --lightpink: #ffb6c1;
+  --lightblue: #3161e0;
 }
 
 * {
@@ -42,10 +43,17 @@ ul{
   list-style: none;
 }
 
+.bg-lightblue{
+  background-color: var(--lightblue);
+}
+
 .small-btn{
-  min-width: 30px;
-  min-height: 20px;
+  min-width: 60px;
+  min-height: 25px;
   border-radius: 15px;
+  background-color: white;
+  color: black;
+  text-align: center;
 }
 
 .flex.d-row-reverse {
@@ -76,6 +84,10 @@ header {
 
 nav > div{
   color: white;
+}
+
+.nav-center{
+  width: 500px;
 }
 
 /* # JUMBOTRON */
