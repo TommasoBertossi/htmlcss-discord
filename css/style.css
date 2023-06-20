@@ -35,6 +35,10 @@
   display: flex;
 }
 
+ul{
+  list-style: none;
+}
+
 .flex.d-row-reverse {
   flex-direction: row-reverse;
 }
