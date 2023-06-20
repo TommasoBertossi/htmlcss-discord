@@ -88,6 +88,7 @@ nav > div{
   align-items: center;
   text-align: center;
   background-image: url('../img/img/jumbo.png');
+  color: white;
 }
 
 .jumbotron > .container {
@@ -103,6 +104,10 @@ section.bg-white {
 
 section.bg-gray {
   background-color: var(--gray);
+}
+
+.bg-item1{
+  background-image: url('../img/img/item1.svg');
 }
 
 .main-section {
