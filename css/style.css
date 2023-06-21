@@ -29,6 +29,12 @@
 body{
   font-family: Whitney, 'Helvetica Neue', Helvetica, Arial, sans-serif;
 }
+
+h1{
+  font-size: 39px;
+  padding: 28px;
+}
+
 .container {
   max-width: 1180px;
   margin-left: auto;
@@ -39,12 +45,29 @@ body{
   display: flex;
 }
 
+.link-list{
+
+}
+
+.list-item{
+  display: inline-block;
+  margin: 0 25px;
+}
+
 ul{
   list-style: none;
 }
 
 .bg-lightblue{
   background-color: var(--lightblue);
+}
+
+.btn{
+  padding: 0.75 1rem;
+  background-color: white;
+  color: #303030;
+  border-radius: 25px;
+  border: none;
 }
 
 .small-btn{
@@ -54,6 +77,14 @@ ul{
   background-color: white;
   color: black;
   text-align: center;
+}
+
+.large-col {
+  width: 60%;
+}
+
+.small-col {
+  width: 40%;
 }
 
 .flex.d-row-reverse {
@@ -95,11 +126,19 @@ nav > div{
 .jumbotron {
   min-height: 400px;
   padding: 2rem 0;
+
+
   display: flex;
   justify-content: center;
   align-items: center;
-  text-align: center;
+
+
   background-image: url('../img/img/jumbo.png');
+  background-size: cover;
+  background-position: center;
+
+
+  text-align: center;
   color: white;
 }
 
@@ -108,7 +147,30 @@ nav > div{
   min-height: 250px;
   line-height: 48px;
 }
+
+.jumbotron > .container > h1{
+  font-size: 4.5rem;
+  margin: 2.5rem 0;
+}
+
+.jumbotron > .container > p{
+  font-size: 1.5rem;
+  margin: 1.5rem 0;
+}
+
+.jumbotron > .container button{
+  font-size: 1.2rem;
+  font-weight: normal;
+  margin: 0 10px;
+  padding: 0.75rem 1.5rem;
+  
+}
 /* # SECTIONS */
+
+.wave{
+  color: var(--darkgray);
+  display: block;
+}
 
 section.bg-white {
   background-color: var(--white);
@@ -123,16 +185,31 @@ section.bg-gray {
 } */
 
 .main-section {
-  padding: 2rem 0;
+  padding: 8rem 0;
 }
 
-.large-col {
-  width: 60%;
+.large-col > img{
+  width: 100%;
 }
 
-.small-col {
-  width: 40%;
+.small-col > h2{
+  font-size: 3rem;
+  margin-bottom: 2rem;
 }
+
+.small-col > p{
+  font-size: 1.3rem;
+  line-height: 2rem;
+  margin-bottom: 2rem;
+}
+
+.bg-sprinkle{
+  background-image: url('../img/img/stars.svg');
+  padding-top: 3rem;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
 
 /* # FOOTER */
 
